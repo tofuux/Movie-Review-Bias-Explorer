@@ -1,0 +1,33 @@
+body {
+  background: #0d0d0f;
+  color: #f0ede8;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #e8c547;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+canvas {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#stats {
+  margin-top: 20px;
+  font-size: 18px;
+}

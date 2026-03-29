@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Bias Explorer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎬 Data Bias Explorer</h1>
+
+<div class="controls">
+  <button onclick="loadRealData()">Load Real Data</button>
+  <button onclick="simulateBias()">Simulate Bias</button>
+  <button onclick="runRegression()">Show Regression Insight</button>
+</div>
+
+<canvas id="chart"></canvas>
+
+<div id="stats"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
